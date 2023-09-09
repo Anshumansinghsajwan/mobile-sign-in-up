@@ -1,0 +1,108 @@
+*{
+    margin:auto;
+    padding:auto;
+    box-sizing: border-box;
+}
+body{
+    margin: 10;
+    padding: 10;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display:flex;
+    background-color: aquamarine;
+}
+.main{
+    min-height: 50vh;
+    background: linear-gradient(to  bottom, rgb(38, 230, 38),rgb(7, 81, 7));
+    padding:50px;
+}
+#h2{
+    margin: auto;
+    font-size:xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-display:inherit;
+}
+.main img{
+    max-width: 400px;
+    background:fixed;
+    max-height: 400px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 400px;
+    margin-bottom: 400px;
+    border-radius: 50px;
+    box-shadow: 5px 5px;
+    border-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: no-repeat center/cover;
+}
+#check{
+    display: none;
+}
+.signup{
+    position: relative;
+    height:100%;
+    width:100%;
+}
+label{
+    color:azure;
+    font-size: 2.5em;
+    justify-content: center;
+    display: flex;
+    margin: 60px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .7s ease-in-out;
+}
+input{
+    width: 60%;
+    height: 20px;
+    background-color: cyan;
+    justify-content: center;
+    display: flex;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+button{
+    width: 60%;
+    height: 40px;
+    margin: 10px auto;
+    justify-content: center;
+    display: block;
+    color: darkturquoise;
+    background-color:rgb(37, 3, 69);
+    font-size: 1em;
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+button:hover{
+    background-color: beige;
+}
+.main h1:hover{
+background-color: blanchedalmond;
+}
+.main h1{
+    box-sizing: content-box;
+    border-radius: 50px;
+    display: flex;
+}
+form p{
+    background-color: coral;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+form p:hover{
+    background-color: cornsilk;
+}
+
+
